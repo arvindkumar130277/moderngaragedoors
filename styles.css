@@ -163,3 +163,11 @@ input:focus,select:focus,textarea:focus{border-color:var(--ink)}
   html{scroll-behavior:auto}
   .door{display:none}
 }
+
+/* call card behind the shutter (replaces the homepage form) */
+.callcard .btn,.callcard .btn-alt{display:block;text-align:center}
+.btn-alt{font:inherit;font-weight:700;color:var(--ink);background:var(--white);border:2px solid var(--ink);border-radius:4px;padding:.8rem 1.4rem;text-decoration:none;min-height:48px;margin-top:.7rem}
+.btn-alt:hover{background:var(--door);color:var(--ink)}
+.btn-alt.full{width:100%}
+.next{list-style:none;margin:1.4rem 0 0;padding:1.1rem 0 0;border-top:2px solid var(--panel);display:grid;gap:.5rem;font-weight:500}
+.next li{padding-left:1.1rem;border-left:4px solid var(--signal)}
